@@ -1,0 +1,25 @@
+{
+    "name": "alkaiir/alkaiirroutepackage",
+    "description": "Module for working with FastRoute ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gr412_veini",
+            "email": "ivv.ven0@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0",
+        "nikic/fast-route": "2.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Route\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
