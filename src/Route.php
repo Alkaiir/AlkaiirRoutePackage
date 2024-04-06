@@ -9,7 +9,7 @@ use FastRoute\RouteParser\Std;
 use FastRoute\DataGenerator\MarkBased;
 use FastRoute\Dispatcher\MarkBased as Dispatcher;
 use Src\Traits\SingletonTrait;
-use Route\Middleware;
+use Src\Middleware;
 
 
 class Route
