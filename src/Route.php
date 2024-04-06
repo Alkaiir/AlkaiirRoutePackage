@@ -42,7 +42,7 @@ class Route
     }
 
     //Конструктор скрыт. Вызывается только один раз
-    private function __construct()
+    public function __construct()
     {
         $this->routeCollector = new RouteCollector(new Std(), new MarkBased());
     }
