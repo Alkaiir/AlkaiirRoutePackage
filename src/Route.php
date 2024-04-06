@@ -2,6 +2,8 @@
 
 namespace Route;
 
+use Error;
+
 use FastRoute\RouteCollector;
 use FastRoute\RouteParser\Std;
 use FastRoute\DataGenerator\MarkBased;
