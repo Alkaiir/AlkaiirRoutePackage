@@ -1,6 +1,6 @@
 <?php
 
-namespace Src;
+namespace Route;
 
 use FastRoute\RouteCollector;
 use FastRoute\RouteParser\Std;
